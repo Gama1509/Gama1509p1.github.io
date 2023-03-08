@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios en JavaScript</title>
+    <script src="./ejercicios.js"></script>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <ul>
+        <li><a href="#1">Ejercicio 1</a></li>
+        <li><a href="#2">Ejercicio 2</a></li>
+        <li><a href="#3">Ejercicio 3</a></li>
+        <li><a href="#4">Ejercicio 4</a></li>
+        <li><a href="#5">Ejercicio 5</a></li>
+        <li><a href="#6">Ejercicio 6</a></li>
+        <li><a href="#7">Ejercicio 7</a></li>
+        <li><a href="#8">Ejercicio 8</a></li>
+        <li><a href="#9">Ejercicio 9</a></li>
+        <li><a href="#10">Ejercicio 10</a></li>
+    </ul>
+        <h1>Ejercicios JavaScript</h2>
+        <p>Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero ganara despues de un mes si el banco paga a razón de 2% menual</p>
+        <form>
+            <a name="1"></a>
+            <h2>Ejercicio 1</h2>
+            <label>Ingrese el capital</label>
+            <input type="text" name="cap" id="cap"/><br>
+            <input type="button" value="Calcular" onclick="capital()"/> <br>
+            <label>Ganara</label><input type="text" id="resul" disabled/>     
+        </form>
+        <br>
+        <br>
+        <a name="2"></a>
+        <h2>Ejercicio 2</h2>
+        <p>Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas. e
+            vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres venta
+            que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base 3
+            comisiones</p>
+        <form>
+            <label>Ingrese la primer venta</label>
+            <input type="text" name="venta1" id="venta1"/><br>
+            <label>Ingrese la segunda venta</label>
+            <input type="text" name="venta2" id="venta2"><br>
+            <label>Ingrese la tercer venta</label>
+            <input type="text" name="venta3" id="venta3"/><br>
+            <label>Ingrese el sueldo base</label>
+            <input type="text" name="sueldobase" id="sueldobase"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio2()"/> <br>
+            <label>El suedo base es</label>
+            <input type="text" id="sueldobaseresul" disabled/><br>
+            <label>La comision del mes es</label>
+            <input type="text" id="comisionresul" disabled/><br>
+            <label>El sueldo total del mes es</label>
+            <input type="text" id="sueldotresul" disabled/>
+        </form>
+        <br>
+        <br>
+        <a name="3"></a>
+        <h2>Ejercicio 3</h2>
+        <p>Una tienda ofrece un descuento del 15% sobre el total de la compra Y un cliente quiere saber cuánto pagará finalmente por su compra</p>
+        <form>
+            <label>Ingrese el precio de su compra</label>
+            <input type="text" name="compra" id="compra"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio3()"/> <br>
+            <label>Debera pagar</label>
+            <input type="text" id="compraresultado" disabled/>
+        </form>
+        <br>
+        <br>
+
+        <a name="4"></a>
+        <h2>Ejercicio 4</h2>
+        <p>Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+            <br> 55% del promedio de sus tres calificaciones parciales.
+            <br>30% de la calificación del examen final.
+            <br>15% de la calificación de un trabajo final.</p>
+            <form>
+                <label>Ingrese la calificacion obtenida en el primer parcial</label>
+                <input type="text" name="calificacion1" id="calificacion1"/><br>
+                <label>Ingrese la calificacion obtenida en el segundo parcial</label>
+                <input type="text" name="calificacion2" id="calificacion2"/><br>
+                <label>Ingrese la calificacion obtenida en el tercer parcial</label>
+                <input type="text" name="calificacion3" id="calificacion3"/><br>
+                <label>Ingrese la calificacion obtenida en el examen final</label>
+                <input type="text" name="examenfinal" id="examenfinal"/><br>
+                <label>Ingrese la calificacion obtenida en el trabajo final</label>
+                <input type="text" name="trabajofinal" id="trabajofinal"/><br>
+                <input type="button" value="Calcular" onclick="ejercicio4()"/> <br>
+                <label>La calificacion final sera</label>
+                <input type="text" id="calificacionfinal" disabled/>
+            </form>
+            <br>
+            <br>
+        <a name="5"></a>
+        <h2>Ejercicio 5</h2>
+        <p>Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.</p>
+        <form>
+            <label>Ingrese la cantidad de alumnos total que hay</label>
+            <input type="text" name="numeroalumnos" id="numeroalumnos"/><br>
+            <label>Ingrese la cantidad de alumnos hombres que hay</label>
+            <input type="text" name="alumnosh" id="alumnosh"/><br>
+            <label>Ingrese la calificacion de alumnos mujeres que hay</label>
+            <input type="text" name="alumnosm" id="alumnosm"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio5()"/> <br>
+            <label>Tiene un porcentaje del</label><br>
+            <input type="text" id="porcentajealumnos" disabled/><label>De alumnos hombres</label><br>
+            <input type="text" id="porcentajealumnas" disabled/><label>De alumnos mujeres</label><br>
+        </form>
+        <br>
+        <br>
+
+        <a name="6"></a>
+        <h2>Ejercicio 6</h2>
+        <p>Realizar un algoritmo que calcule la edad de una persona.</p> 
+        <label>Ingrese su fecha de nacimiento:</label>
+        <input type="date" name="fechan" id="fechan">
+        <input type="button" value="Calcular" onclick="ejercicio6()">
+        <input type="text" id="edadc" style="width:300px;" disabled>
+        <br>
+        <br>
+        
+        <a name="7"></a>
+        <h2>Ejercicio 7</h2>
+        <p>Leer 2 números; si son iguales que los multiplique, si el primero es mayor que el segundo que los reste y si no que los sume.</p>
+        <form>
+
+
+            <label>Ingrese un numero</label>
+            <input type="text" name="n1" id="n1"/><br>
+            <label>Ingrese un numero</label>
+            <input type="text" name="n2" id="n2"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio7()"/> <br>
+            <label>Resultado</label><input type="number" id="resuk" disabled/>
+            </form>
+            <br><br>
+        
+        <a name="8"></a>
+        <h2>Ejecicio 8</h2>
+        <p>Leer tres números diferentes e imprimir el numero mayor de los tres.</p>
+        <form>
+            <label>Ingrese un numero</label>
+            <input type="text" name="nu1" id="nu1"/><br>
+            <label>Ingrese un numero</label>
+            <input type="text" name="nu2" id="nu2"/><br>
+            <label>Ingrese un numero</label>
+            <input type="text" name="nu3" id="nu3"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio8()"/> <br>
+            <label>Resultado</label><input type="number" id="resup" disabled/>
+        </form>
+        <br>
+        <br>
+        <a name="9"></a>
+        <h2>Ejercicio 9</h2>
+        <p>Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal cuando no exceden de 8; si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple.</p>
+        <form>
+            <label>Ingrese la cantidad de horas que trabajo el trabajador</label>
+            <input type="text" name="horastotales" id="horastotales"/><br>
+            <label>Ingrese cuanto se le paga por hora al trabajador</label>
+            <input type="text" name="salario" id="salario"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio9()"/> <br>
+
+            <label>El trabajador trabajo</label><input type="number" id="horasnormales" disabled/><label>horas normales</label><br>
+            <label>El trabajador trabajo</label><input type="number" id="horasdobles" disabled/><label>horas extras que se pagaron al doble</label><br>
+            <label>El trabajador trabajo</label><input type="number" id="horastriples" disabled/><label>horas extras que se pagaron al triple</label><br>
+            <label>Se le debera pagar al trabajador: $</label><input type="number" id="salariofinal" disabled/>
+        </form>
+        <br>
+        <br>
+
+        <a name="10"></a>
+        <h2>Ejercicio 10</h2>
+        <p>Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este se le asigna como un porcentaje de su salario mensual que depende de su antigüedad en la empresa de acuerdo con los siguientes datos:</p>
+        <br>Menos de 1 año-5% del salario<br>
+        <br>1 año o más y menos de 2 años-7% del salario<br>   
+        <br>2 años o más y menos de 5 años-10% del salario<br>
+        <br>5 años o más y menos de 10 años-15% del salario<br>
+        <br>10 años o más-20% del salario
+        <form>
+            <br>
+            <label>Años trabajados</label>
+            <input type="text" name="años "id="años">
+            <br>
+            <label>Meses trabajando (después de los años que ya se mencionaron)</label>
+            <input type="text" name="meses" id="meses">
+            <br>
+            <label> Pago por mes</label>
+            <input type="text" name="pagomes" id="pagomes"> 
+            <br>
+            <input type="button" value="Calcular" onclick="ejercicio10()"/>
+            <br>
+            <label>La utilidad anual es:</label>
+            <input type="text" id="utilidad" disabled/><br>
+            <label>El salario total de este año + la utilidad es:</label>
+            <input type="text" id="sutilidad" disabled/>
+        </form>
+    
+               
+        </div>
+    </body>
+</html>
